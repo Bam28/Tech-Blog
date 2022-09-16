@@ -1,0 +1,66 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(57, 57, 57);
+}
+
+nav h1 {
+  margin: 10px auto;
+  padding: 5px 13px;
+  font-size: 35px;
+  border: 2px solid black;
+  background-color: burlywood;
+  color: rgb(57, 57, 57);
+}
+
+#options-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 100px;
+  list-style: none;
+  color: burlywood;
+}
+
+.authentication-section,
+.post-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 25px 12.5%;
+  border: 3px solid black;
+  background-color: rgb(57, 57, 57);
+}
+
+.authentication-name,
+.post-info {
+  color: white;
+  background-color: rgb(57, 57, 57);
+}
+
+.authentication-form,
+.post-paragraph,
+.create-post-info {
+  display: flex;
+  flex-direction: column;
+  background-color: burlywood;
+  padding: 12.50%;
+}
+
+.form-label-name {
+  font-size: 25px;
+}
+
+#signup-section h3 {
+  display: flex;
+  justify-content: flex-end;
+  color: aliceblue;
+  padding-right: 25px;
+}
+
+.post-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
