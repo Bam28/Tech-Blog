@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(198, 221, 240);
+}
+
 nav {
   display: flex;
   flex-direction: column;
@@ -9,8 +13,17 @@ nav h1 {
   padding: 5px 13px;
   font-size: 35px;
   border: 2px solid black;
-  background-color: burlywood;
+  background-color: white;
   color: rgb(57, 57, 57);
+}
+nav a {
+  font-size: 30px;
+  text-decoration: none;
+}
+
+nav a, 
+a:visited {
+  color: white;
 }
 
 #options-list {
@@ -43,7 +56,7 @@ nav h1 {
 .create-post-info {
   display: flex;
   flex-direction: column;
-  background-color: burlywood;
+  background-color: rgb(198, 221, 240);
   padding: 12.50%;
 }
 
@@ -63,4 +76,64 @@ nav h1 {
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
+}
+
+.blog-post {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(57, 57, 57);
+  margin: 6.25%;
+  background-color:  white;
+}
+
+.blog-post-info {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(57, 57, 57);
+  background-color: rgb(57, 57, 57);
+}
+
+
+.blog-post-date {
+  color:  rgb(198, 221, 240);
+}
+
+#blogpost-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-post-name,
+.form-post-description {
+  font-size:35px;
+  color: rgb(198, 221, 240);
+}
+#user-title-blogpost {
+  width: 33.33%;
+  height: 30px;
+}
+
+#user-description-post {
+  margin: 0 12.5%;
+  font-size: 20px;
+}
+
+.new-post-button {
+  display: flex;
+  justify-content: center;
+  margin: 33.3% 25%;
+  font-size: 25px;
+}
+
+.blog-post-title,
+.blog-post-title:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.hide {
+  display: none;
 }

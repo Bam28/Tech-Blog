@@ -12,12 +12,12 @@
 <body>
   <nav>
     <ul id="options-list">
-      <li>Home</li>
-      <li>Dashboard</li>
+      <li><a href="/">Home</a></li>
       {{#if logged_in}}
-      <li id="logout">Logout</li>
+        <li><a id="dashboard" href="/blog-post">Dashboard</a></li>
+        <li><a id="logout" href="/">Logout</a></li>
       {{else}}
-      <li><a href="/login">Log In</a></li>
+        <li><a href="/signup">Log In</a></li>
       {{/if}}
     </ul>
     <h1>The Tech Blog</h1>
